@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   height: 2200px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(154, 154, 192);
+    width: 100%;
+    position: fixed;
+    z-index: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: certer;
+    padding: 10px 150px;
+}
+
+.logo{
+    color: rgb(54, 60, 107);
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: rgb(245, 243, 246);
+}
+
+ nav a{
+    color:(54, 60, 107);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    padding-left: 20px;
+ }
+ 
+ nav a:hover{
+    color: rgb(54, 60, 107);
+    font-weight: 900;
+ }
+
+ .content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://webspytechnology.com/wp-content/uploads/2023/01/banner6.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+
+ .content h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+ }
+
+ section{
+    padding: 10px 90px;
+ }
+
+ .content h3{
+    color: rgb(218, 218, 228);
+    font-size: 19px;
+    font-weight: bold;
+ }
+
+ .learn-more{
+    color:rgb(246, 246, 253) ;
+    background-color:rgb(132, 88, 159) ;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 10px;
+ }
+
+ .my-Courses{
+   text-align: center;
+   background-color:rgb(246, 246, 246);
+   padding-top: 45px;
+ }
+
+ .my-Courses h2{
+   color: rgb(54, 60, 107);
+   font-size: 40px;
+ }
+
+ .my-Courses p{
+   color:black;
+   font-size: 20px;
+   margin-bottom: 60px;
+ }
+
+ .Courses{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .box{
+   background-color:white;
+   padding:20px;
+   margin: 20px;
+   border-radius: 10px;
+   border: 1px solid #e4d9d9;
+   cursor:pointer; 
+ }
+
+.box:hover{
+   background-color:rgb(238, 235, 235);
+   border-radius: 5px;
+   box-shadow: 0 5px 5px rgb(129, 104, 148);
+}
+
+ .box i{
+   color:blueviolet;
+   font-size: 60px ;
+   padding-top: 30px;
+ }
+
+ .box h3{
+   color:black;
+   font-size: 25px;
+ }
+ 
+ .my-Articles {
+   text-align: center;
+    
+ }
+
+ .my-Articles h2{
+   color: rgb(54, 60, 107);
+   font-size: 40px;
+ }
+
+ .my-Articles p{
+   color:black;
+   font-size: 20px;
+   margin-bottom: 60px;
+ }
+
+ .photos{
+   display: flex;
+ }
+
+ .photo{
+   margin: 20px;
+ }
+ .photos img{
+   width:100%;
+ }
+
+ .contact-us {
+   background-color: #eee;
+   text-align: center;
+ }
+
+ 
+ .contact-us h2{
+   color: rgb(54, 60, 107);
+   font-size: 40px;
+ }
+
+.contact-us p{
+   color:black;
+   font-size: 20px;
+   margin-bottom: 60px;
+}
+ 
+.contact-area {
+   width: 60%;
+   background-color: #e4d9d9;
+   margin: 20px auto;
+   padding: 35px;
+   border: 1px solid #d5d0d0;
+   border-radius: 10px;
+}
+
+.form-input input {
+   width: 50%;
+   height: 40;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   border: 1px solid #eee7e7;
+}
+
+.form-input textarea {
+   width: 50%;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   border: 1px solid #f7f2f2;
+}
+   
+.send {
+   padding: 5px 20px;
+   background-color:rgb(54, 60, 107) ;
+   color:white;
+   border-radius: 5px; 
+   border: none;
+}
+ 
+footer {
+   border-top: 5px rgb(98, 104, 146);
+   background-color: rgb(154, 154, 192);
+   padding-top: 50px;
+   text-align: center;
+   font-size: 30px;
+}
+
+footer p{
+   color: white;
+   font-size:25px;
+}
